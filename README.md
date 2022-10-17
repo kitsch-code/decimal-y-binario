@@ -7,7 +7,7 @@ Convertidor decimal a binario y binario a decimal
 
 Si siempre has tenido problemas calculando la conversión de números decimales a binarios o viceversa, aquí está tu solución, úsala sabiamente.
 
-Puedes ver el proyecto en el siguiente enlace: https://kitsch-code.github.io/piedra-papel-y-tijeras/
+Puedes ver el proyecto en el siguiente enlace: https://kitsch-code.github.io/decimal-y-binario/
 
 Suerte internauta! 🤓
 
