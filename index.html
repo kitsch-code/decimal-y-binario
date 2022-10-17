@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Binario</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52d5f67052.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h1>Convertidor Binario</h1>
+        
+        <section class="first-section">
+            <h2>Decimal a Binario</h2>
+            <p>Convierte cualquier número en sistema decimal a binario</p>
+            
+            <div class="form">
+                <div>
+                    <label for="decInput">Escribe aquí tu número decimal</label>
+                    <input type="number" id="decInput" placeholder="Decimal">
+                </div>
+                <input type="button" class="button" id="btnToBin" value="Convertir a Binario">
+            </div>
+        
+            <div class="result">
+                <p id="resultBin"></p>
+                <button type="button" class="copy" id="copybin" title="Copiar resultado" disabled>
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Binario a Decimal</h2>
+            <p>Convierte cualquier número en sistema binario a decimal</p>
+            
+            <div class="form">
+                <div>
+                    <label for="binInput">Escribe aquí tu número binario</label>
+                    <input type="number" id="binInput" placeholder="Binario">
+                </div>
+                <input type="button" class="button" id="btnToDec" value="Convertir a Decimal">
+            </div>
+        
+            <div class="result">
+                <p id="resultDec"></p>
+                <button type="button" class="copy" id="copyDec" title="Copiar resultado" disabled>
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+            </div>
+        </section>
+        
+        <!-- <p class="tryCalc">Prueba también la calculadora binaria </p> <a href=""> << aquí >> </a> -->
+    </main>
+
+    <textarea id="copyResult"></textarea>
+    <div id="floating">
+        <p>¡Resultado copiado!</p>
+    </div>
+
+    <canvas class="gravity" id="canvas">
+    </canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
